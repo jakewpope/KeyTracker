@@ -9,7 +9,7 @@ def on_key_release(event):
     global key_list
     key = event.name
     key_counts = key_list[lap]
-    if key == 'f1':
+    if key == 'f5':
         lap += 1
         key_list.append({'lap': lap})
     elif key.capitalize() in ['W', 'A', 'S', 'D']:
